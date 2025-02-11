@@ -5,36 +5,33 @@
     android:layout_height="fill_parent"
     android:divider="?android:attr/dividerHorizontal"
     android:orientation="vertical"
-    android:showDividers="middle" >
+    android:showDividers="middle">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:padding="22dp" >
+        android:padding="22dp">
 
         <com.github.danielnilsson9.colorpickerview.view.ColorPickerView
             android:id="@id/colorpickerview__color_picker_view"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            picker:alphaChannelVisible="true"
-            picker:borderColor="#646464" />
+            android:layout_height="wrap_content" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="40dp"
+            android:layout_below="@id/colorpickerview__color_picker_view"
             android:layout_alignLeft="@id/colorpickerview__color_picker_view"
             android:layout_alignRight="@id/colorpickerview__color_picker_view"
-            android:layout_below="@id/colorpickerview__color_picker_view"
             android:layout_marginTop="16dp"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <com.github.danielnilsson9.colorpickerview.view.ColorPanelView
                 android:id="@id/colorpickerview__color_panel_old"
                 android:layout_width="0px"
                 android:layout_height="fill_parent"
-                android:layout_weight="0.5"
-                picker:borderColor="#646464" />
+                android:layout_weight="0.5"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -50,8 +47,7 @@
                 android:id="@id/colorpickerview__color_panel_new"
                 android:layout_width="0px"
                 android:layout_height="fill_parent"
-                android:layout_weight="0.5"
-				picker:borderColor="#646464" />
+                android:layout_weight="0.5" />
         </LinearLayout>
     </RelativeLayout>
 
@@ -60,7 +56,7 @@
         style="?android:attr/buttonBarStyle"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/cancelButton"

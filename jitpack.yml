@@ -1,0 +1,5 @@
+jdk:
+  - openjdk17
+install:
+  - ./gradlew :color-picker-view:build :color-picker-view:publishToMavenLocal -x :color-picker-view:test
+  - find . -name "*.aar"
