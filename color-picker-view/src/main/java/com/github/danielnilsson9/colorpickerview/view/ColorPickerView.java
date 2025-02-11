@@ -241,10 +241,10 @@ public class ColorPickerView extends View{
 	private void init(Context context, AttributeSet attrs) {
 		//Load those if set in xml resource file.
 		TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.colorpickerview__ColorPickerView);
-		mShowAlphaPanel = a.getBoolean(R.styleable.colorpickerview__ColorPickerView_alphaChannelVisible, false);
-		mAlphaSliderText = a.getString(R.styleable.colorpickerview__ColorPickerView_alphaChannelText);
-		mSliderTrackerColor = a.getColor(R.styleable.colorpickerview__ColorPickerView_sliderColor, 0xFFBDBDBD);
-		mBorderColor = a.getColor(R.styleable.colorpickerview__ColorPickerView_borderColor, 0xFF6E6E6E);
+		mShowAlphaPanel = a.getBoolean(R.styleable.colorpickerview__ColorPickerView_colorpickerview__alphaChannelVisible, false);
+		mAlphaSliderText = a.getString(R.styleable.colorpickerview__ColorPickerView_colorpickerview__alphaChannelText);
+		mSliderTrackerColor = a.getColor(R.styleable.colorpickerview__ColorPickerView_colorpickerview__sliderColor, 0xFFBDBDBD);
+		mBorderColor = a.getColor(R.styleable.colorpickerview__ColorPickerView_colorpickerview__borderColor, 0xFF6E6E6E);
 		a.recycle();
 		
 		applyThemeColors(context);

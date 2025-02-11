@@ -97,7 +97,7 @@ public class ColorPanelView extends View{
 	private void init(Context context, AttributeSet attrs){
 		
 		TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.colorpickerview__ColorPickerView);
-		mBorderColor = a.getColor(R.styleable.colorpickerview__ColorPickerView_borderColor, 0xFF6E6E6E);
+		mBorderColor = a.getColor(R.styleable.colorpickerview__ColorPickerView_colorpickerview__borderColor, 0xFF6E6E6E);
 		a.recycle();
 		
 		applyThemeColors(context);

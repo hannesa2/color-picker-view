@@ -1,40 +1,32 @@
-apply plugin: 'com.android.library'
+plugins {
+    id "com.android.library"
+    id "maven-publish"
+}
 
 android {
     namespace "com.github.danielnilsson9.colorpickerview"
     compileSdk 34
-    resourcePrefix "colorpickerview__"
+//    resourcePrefix "colorpickerview__"
 
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 34
-        versionCode 4
-        versionName "1.4.0"
     }
     buildTypes {
+        debug {}
+        release {
+            minifyEnabled false
+//            consumerProguardFile("proguard-sdk.pro")
+        }
     }
 }
 
-ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'color-picker-view'
-
-    publishedGroupId = 'com.github.danielnilsson9'
-    libraryName = 'ColorPickerView'
-    artifact = 'color-picker-view'
-
-    libraryDescription = 'A simple good looking color picker component for Android.'
-
-    siteUrl = 'https://github.com/danielnilsson9/color-picker-view'
-    gitUrl = 'https://github.com/danielnilsson9/color-picker-view.git'
-
-    libraryVersion = '1.4.0'
-
-    developerId = 'danielnilsson9'
-    developerName = 'Daniel Nilsson'
-    developerEmail = 'daniel.nilsson.9@gmail.com'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
+publishing {
+    publications {
+        release(MavenPublication) {
+            afterEvaluate {
+//                from components.release
+            }
+        }
+    }
 }

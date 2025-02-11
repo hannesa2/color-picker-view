@@ -10,24 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b11b6517-de49-4e48-9e1d-02d339f8f69a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/build.gradle_save" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jitpack.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/color-picker-view/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/color-picker-view/bintrayupl.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/color-picker-view/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/color-picker-view/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/color-picker-view/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/color-picker-view/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/github/danielnilsson9/colorpickerview/demo/ColorPickerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/github/danielnilsson9/colorpickerview/demo/ColorPickerActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/github/danielnilsson9/colorpickerview/demo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/github/danielnilsson9/colorpickerview/demo/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ic_menu_color_palette.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/color-picker-view/src/main/java/com/github/danielnilsson9/colorpickerview/view/ColorPanelView.java" beforeDir="false" afterPath="$PROJECT_DIR$/color-picker-view/src/main/java/com/github/danielnilsson9/colorpickerview/view/ColorPanelView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color-picker-view/src/main/java/com/github/danielnilsson9/colorpickerview/view/ColorPickerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/color-picker-view/src/main/java/com/github/danielnilsson9/colorpickerview/view/ColorPickerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color-picker-view/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/color-picker-view/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jitpack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jitpack.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +25,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=Default, isTemplate=false, identifier=serial=emulator-5558;connection=0a140e8b)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=/Users/hannes/.android/avd/Pixel_8a_API_34.avd)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -87,6 +75,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Android App.demo.executor": "Run",
     "Gradle.color-picker-view [wrapper].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -96,6 +85,11 @@
     "cidr.known.project.marker": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/hannes/git/color-picker-view"
+  },
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "/Users/hannes/.gradle"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
