@@ -1,23 +1,18 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.jfrog.bintray'
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "23.0.0"
+    namespace "com.github.danielnilsson9.colorpickerview"
+    compileSdk 34
     resourcePrefix "colorpickerview__"
 
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 22
+        targetSdkVersion 34
         versionCode 4
         versionName "1.4.0"
     }
     buildTypes {
     }
-}
-
-dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
 }
 
 ext {
@@ -43,5 +38,3 @@ ext {
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
 }
-
-apply from: 'bintrayupl.gradle'
